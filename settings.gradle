@@ -1,1 +1,1 @@
-include ':app', ':recyclerdemo'
+include ':app', ':recyclerdemo', ':draw05'
