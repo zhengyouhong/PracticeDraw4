@@ -5,6 +5,8 @@
       <module fileurl="file://$PROJECT_DIR$/PracticeDraw4.iml" filepath="$PROJECT_DIR$/PracticeDraw4.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/draw05/draw05.iml" filepath="$PROJECT_DIR$/draw05/draw05.iml" />
+      <module fileurl="file://$PROJECT_DIR$/draw06/draw06.iml" filepath="$PROJECT_DIR$/draw06/draw06.iml" />
+      <module fileurl="file://$PROJECT_DIR$/draw07/draw07.iml" filepath="$PROJECT_DIR$/draw07/draw07.iml" />
       <module fileurl="file://$PROJECT_DIR$/recyclerdemo/recyclerdemo.iml" filepath="$PROJECT_DIR$/recyclerdemo/recyclerdemo.iml" />
     </modules>
   </component>

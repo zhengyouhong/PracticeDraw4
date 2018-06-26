@@ -36,6 +36,17 @@ public class Practice04DispatchDrawLayout extends LinearLayout {
         pattern.draw(canvas);
     }
 
+    @Override
+    public void onDrawForeground(Canvas canvas) {
+        super.onDrawForeground(canvas);
+    }
+
+    //    @Override
+//    protected void dispatchDraw(Canvas canvas) {
+//        super.dispatchDraw(canvas);
+//        pattern.draw(canvas);
+//    }
+
     private class Pattern {
         private static final float PATTERN_RATIO = 5f / 6;
 
