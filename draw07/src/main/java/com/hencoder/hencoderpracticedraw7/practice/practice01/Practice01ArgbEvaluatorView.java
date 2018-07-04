@@ -11,7 +11,7 @@ public class Practice01ArgbEvaluatorView extends View {
 
     Paint paint = new Paint(Paint.ANTI_ALIAS_FLAG);
 
-    int color = 0xffff0000;
+    int mColor = 0xffff0000;
 
     public Practice01ArgbEvaluatorView(Context context) {
         super(context);
@@ -25,12 +25,12 @@ public class Practice01ArgbEvaluatorView extends View {
         super(context, attrs, defStyleAttr);
     }
 
-    public int getColor() {
-        return color;
+    public int getMColor() {
+        return mColor;
     }
 
-    public void setColor(int color) {
-        this.color = color;
+    public void setMColor(int color) {
+        this.mColor = color;
         invalidate();
     }
 
@@ -41,7 +41,7 @@ public class Practice01ArgbEvaluatorView extends View {
         int width = getWidth();
         int height = getHeight();
 
-        paint.setColor(color);
+        paint.setColor(mColor);
         canvas.drawCircle(width / 2, height / 2, width / 6, paint);
     }
 }

@@ -53,6 +53,7 @@ public class Sample06KeyframeView extends View {
         float centerY = getHeight() / 2;
 
         paint.setColor(Color.parseColor("#E91E63"));
+        paint.measureText("gg")
         paint.setStyle(Paint.Style.STROKE);
         paint.setStrokeCap(Paint.Cap.ROUND);
         paint.setStrokeWidth(dpToPixel(15));
